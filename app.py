@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/angelchip', methods=['GET'])
+@app.route('/v4', methods=['GET'])
 def get_angelchip():
     file_path = 'angelchip.bin'
 
